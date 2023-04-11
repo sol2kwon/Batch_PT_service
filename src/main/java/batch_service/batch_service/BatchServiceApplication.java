@@ -17,14 +17,11 @@ import org.springframework.context.annotation.Bean;
 
 
 @SpringBootApplication
-@EnableBatchProcessing
 public class BatchServiceApplication {
 
-	@Autowired
-	private JobBuilderFactory jobBuilderFactory;
+	private final JobBuilderFactory jobBuilderFactory;
 
-	@Autowired
-	private StepBuilderFactory stepBuilderFactory;
+	private final StepBuilderFactory stepBuilderFactory;
 
 
 	public BatchServiceApplication(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory) {
