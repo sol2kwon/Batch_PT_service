@@ -8,7 +8,8 @@ services:
     volumes:                                      # {호스트}:{컨테이너}
       - ./db/conf.d:/etc/mysql/conf.d
       - ./db/initdb.d:/docker-entrypoint-initdb.d
-    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+    command: ['mysql', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
     ports:                                        # 외부로 노출시킬 port
       - "3306:3306"
     environment:                                  # 환경 변수
