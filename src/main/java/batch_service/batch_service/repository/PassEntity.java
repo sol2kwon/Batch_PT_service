@@ -27,4 +27,5 @@ public class PassEntity {
     private LocalDateTime startedAt;
     private LocalDateTime endedAt;
     private LocalDateTime expiredAt;
+    private LocalDateTime modifiedAt;
 }
