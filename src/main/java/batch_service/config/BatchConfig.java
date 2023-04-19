@@ -1,4 +1,4 @@
-package batch_service.batch_service.config;
+package batch_service.config;
 
 import org.springframework.batch.core.configuration.JobRegistry;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;

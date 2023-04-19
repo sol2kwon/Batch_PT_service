@@ -1,4 +1,4 @@
-package batch_service.batch_service.repository;
+package batch_service.repository.pass;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

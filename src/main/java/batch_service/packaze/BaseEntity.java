@@ -1,4 +1,4 @@
-package batch_service.batch_service.packaze;
+package batch_service.packaze;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;

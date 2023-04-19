@@ -1,10 +1,10 @@
 package batch_service.batch_service.job;
 
 import batch_service.batch_service.config.TestBatchConfig;
-import batch_service.batch_service.pass.ExpirePassesJobConfig;
-import batch_service.batch_service.repository.PassEntity;
-import batch_service.batch_service.repository.PassRepository;
-import batch_service.batch_service.repository.PassStatus;
+import batch_service.job.pass.ExpirePassesJobConfig;
+import batch_service.repository.pass.PassEntity;
+import batch_service.repository.pass.PassRepository;
+import batch_service.repository.pass.PassStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.batch.core.ExitStatus;

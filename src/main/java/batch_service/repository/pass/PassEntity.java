@@ -1,4 +1,4 @@
-package batch_service.batch_service.repository;
+package batch_service.repository.pass;
 
 import lombok.Getter;
 import lombok.Setter;

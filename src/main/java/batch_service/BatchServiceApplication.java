@@ -1,4 +1,4 @@
-package batch_service.batch_service;
+package batch_service;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

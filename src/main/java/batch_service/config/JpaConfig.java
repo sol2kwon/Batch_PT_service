@@ -1,4 +1,4 @@
-package batch_service.batch_service.config;
+package batch_service.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

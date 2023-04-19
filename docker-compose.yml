@@ -6,7 +6,7 @@ services:
     container_name: mysql_local
     image: mysql:8.0.30
     volumes:                                      # {호스트}:{컨테이너}
-#      - ./db/conf.d:/etc/mysql/conf.d
+      - ./db/conf.d:/etc/mysql/conf.d
       - ./db/initdb.d:/docker-entrypoint-initdb.d
     command: ['--collation-server=utf8mb4_unicode_ci']
 

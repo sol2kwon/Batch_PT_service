@@ -1,4 +1,4 @@
-package batch_service.batch_service.packaze;
+package batch_service.packaze;
 
 import lombok.Getter;
 import lombok.Setter;

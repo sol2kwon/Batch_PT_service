@@ -1,7 +1,7 @@
-package batch_service.batch_service.pass;
+package batch_service.job.pass;
 
-import batch_service.batch_service.repository.PassEntity;
-import batch_service.batch_service.repository.PassStatus;
+import batch_service.repository.pass.PassEntity;
+import batch_service.repository.pass.PassStatus;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
